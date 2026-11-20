@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+edca_env/
+.venv/
+
+# ns-3 build files
+build/
+cmake-cache/
+*.o
+*.so
+*.a
+*.pcap
+*.tr
+*.xml
+
+# Logs and experiment outputs
+wandb/
+logs/
+*.log
+*.csv
+
+# Secrets
+.env
+.env.*
+
+# Local environments
+myenv/
+edca_env/
+
+# ns-3 generated files
+.lock-waf_linux_build
+.waf3-*/
+*.png
+*.backup
+backups/
+
+# OpenGym nested repository
+contrib/opengym/
+/myenv/
